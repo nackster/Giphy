@@ -1,0 +1,19 @@
+gif-portal-starter/node_modules/
+gif-portal-starter/build/
+gif-portal-starter/.cache/
+gif-portal-starter/.env
+gif-portal-starter/.env.*.local
+
+# Rust / Anchor
+gifportal/target/
+gifportal/.anchor/
+gifportal/.cargo/
+gifportal/Cargo.lock
+
+# NEVER commit keypairs
+**/*-keypair.json
+**/id.json
+
+# OS / editors
+.DS_Store
+.vscode/
